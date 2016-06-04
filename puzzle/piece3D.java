@@ -5,7 +5,7 @@
 //source code by Professor Bill Root, San Diego State University
 //class/file is used as part of cs560project
 
-
+package puzzle;
 
 public class piece3D {
 	point3D[] cubes;
@@ -264,7 +264,7 @@ public void findAllPossiblePositionsAsBitmaps()
                             {
                                 m_string = "0" + m_string;
                             }
-                            System.out.println("integrated bitmap " + m_string);
+                            //System.out.println("integrated bitmap " + m_string);
                         }
                     }
                 }

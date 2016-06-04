@@ -9,6 +9,7 @@
 //part of constructor written by Professor Root, moved from main to constructor and
 //modified to take input from .txt file
 
+package puzzle;
 
 import java.util.*;
 import java.io.*;
@@ -42,7 +43,7 @@ public class cs560project
             System.out.println("File not found. Will try to run anyways.");
         }
         int sizeOfCube = scan.nextInt();
-        System.out.println(sizeOfCube);
+        //System.out.println(sizeOfCube);
         N = sizeOfCube;
         
         mapTable = new int[N][N][N];
@@ -70,7 +71,7 @@ public class cs560project
         for(int i=0; i<amountOfPieces; i++)
         {
             int currentPiece = scan.nextInt();
-            System.out.println(currentPiece);
+            //System.out.println(currentPiece);ter
             int amountOfUnits = scan.nextInt();
             System.out.println(amountOfUnits);
             piece3D current3Dpiece = new piece3D((char)currentPiece, amountOfUnits);
@@ -231,7 +232,7 @@ public class cs560project
     //.txt files are input by creating a cs560project instance and the name of the file is the constructor parameter
     public static void main(String[] args)
     {
-        cs560project puzzle = new cs560project("cs560input.txt");
+        cs560project puzzle = new cs560project("inputs/cs560input.txt");
         puzzle.solve();
     }
 }// closes class

@@ -5,6 +5,8 @@
 //source code by Professor Bill Root, San Diego State University
 //class/file used as part of cs560project
 
+package puzzle;
+
 public class point3D {
 	int x;
 	int y;

@@ -5,6 +5,8 @@
 //source code by Professor Bill Root
 //modifications done by students is commented
 
+package puzzle;
+
 import java.util.*;
 
 
