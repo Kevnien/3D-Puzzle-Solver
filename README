@@ -1,0 +1,17 @@
+3D Puzzle Solver
+Solves where 3D pieces fit into 3D cube
+
+Takes an input text file that describes the size of cube and the pieces.
+
+Input file is specified in main of solver.java
+
+Input text file:
+    1st line:   size of cube (e.g. 3 would make a 3 by 3 by 3 cube)
+    2nd line:   the number of pieces
+    following are the pieces described in subsequent lines by:
+        piece number (i.e. which piece is being described of the N number of pieces)
+        amount of units the piece takes up
+            a unit it a point in space of the 3D cube
+        the x,y,z coordinates of the units
+            each unit takes a line
+
