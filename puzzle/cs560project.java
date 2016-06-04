@@ -67,23 +67,23 @@ public class cs560project
         }
         
         amountOfPieces = scan.nextInt();
-        System.out.println(amountOfPieces);
+        //System.out.println(amountOfPieces);
         for(int i=0; i<amountOfPieces; i++)
         {
             int currentPiece = scan.nextInt();
-            //System.out.println(currentPiece);ter
+            //System.out.println(currentPiece);
             int amountOfUnits = scan.nextInt();
-            System.out.println(amountOfUnits);
+            //System.out.println(amountOfUnits);
             piece3D current3Dpiece = new piece3D((char)currentPiece, amountOfUnits);
             pieces.add(current3Dpiece);
             for(int j=0; j<amountOfUnits; j++)
             {
                 x = scan.nextInt();
-                System.out.print(x + " ");
+                //System.out.print(x + " ");
                 y = scan.nextInt();
-                System.out.print(y + " ");
+                //System.out.print(y + " ");
                 z = scan.nextInt();
-                System.out.print(z + "\n");
+                //System.out.print(z + "\n");
                 pieces.get(i).setCube(j, x, y, z);
             }
             pieces.get(i).findAllPossiblePositionsAsBitmaps();
@@ -136,7 +136,7 @@ public class cs560project
                 currentNode = currentNode.link;
             }
         }//for every piece, its bitmapNode.children is all the nodes in the linkedlist of that bitmapNode
-        System.out.println("populate time: " + time);
+        //System.out.println("populate time: " + time);
     }
     
     //will find a solution to puzzle
@@ -156,7 +156,7 @@ public class cs560project
             child.filledPositions = child.bitmap;
             visit(child);
         }
-        System.out.println("time: " + time);
+        //System.out.println("time: " + time);
     }
     
     //used in conjunction with solve() to perform Depth-First-Search

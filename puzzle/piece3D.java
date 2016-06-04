@@ -272,7 +272,7 @@ public void findAllPossiblePositionsAsBitmaps()
         }
     }
     amountOfPositions = positionIndex;
-    System.out.println("Amount of possible positions: " + amountOfPositions);
+    //System.out.println("Amount of possible positions: " + amountOfPositions);
 }
 
 				
