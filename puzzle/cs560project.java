@@ -1,4 +1,4 @@
-// Christian Barajas, Christian Cosby, Kevin Nguyen
+// Kevin Nguyen, Christian Barajas, Christian Cosby
 // Group #15
 // CS 560
 
@@ -93,6 +93,7 @@ public class cs560project
     }
     
     //Pieces are sorted from least amount of possible positions to most
+	//decided not to use, since it doesn't noticeably improve running time
     public void sort()
     {
         ArrayList newArrayList = new ArrayList<piece3D>();

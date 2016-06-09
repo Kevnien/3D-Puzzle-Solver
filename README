@@ -1,5 +1,6 @@
 3D Puzzle Solver
 Solves where 3D pieces fit into 3D cube
+Uses a depth-first-search algorithm to find a solution
 
 BRANCH 2 notes:
 	removed possible positions bitmaps printouts for sake of neatness
